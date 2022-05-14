@@ -1,0 +1,40 @@
+{
+	margin:0;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	background color:rgb(211,211,211);
+	background-image: url("Background.jpeg");
+}
+.Speech{
+	width: 50px;
+}
+.group{
+	margin: 7px 0;
+}
+textarea{
+	border-radius: 10px;
+	background-color: bisque;
+	padding: 40px;
+	margin: 0px 20px 20px;
+	max-width: 300px;
+	font-size: large;
+}
+button{
+	width:100%;
+	display: block;
+	padding: 10px 22px;
+	color: rgb(10,10,10);
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+	background-color: beige;
+}
+h2{
+	margin-bottom: 10px;
+	text-align: center;
+}
+	
