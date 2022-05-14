@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSpeechSynthesis,useSpeechRecognition } from "react-speech-kit";
 import { Container } from './shared';
 
-const speechSynthesis = () => {
+const SpeechSynthesis = () => {
   const [text, setText,setValue] = useState('I am a robot');
   const [pitch, setPitch] = useState(1);
   const [rate, setRate] = useState(1);
