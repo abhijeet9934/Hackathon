@@ -6,8 +6,9 @@
 
 body{
 	font-family: sans-serif;
-	background color:rgb(211,211,211);
+	background-color:lightGrey;
 	background-image: url("Background.jpeg");
+	
 }
 .Speech{
 	width: 50px;
@@ -27,7 +28,7 @@ button{
 	width:100%;
 	display: block;
 	padding: 10px 22px;
-	color: rgb(10,10,10);
+	color: black;
 	font-weight: bold;
 	cursor: pointer;
 	outline: none;
