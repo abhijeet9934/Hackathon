@@ -25,6 +25,8 @@ const speechSynthesis = () => {
    
   });
   
+ const [lang,setLang]=useState('en-AU');
+  
   const toggle = listening
     ? stop
     : () => {
