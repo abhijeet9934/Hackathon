@@ -127,7 +127,7 @@ const SpeechSynthesis = () => {
             )}
 			<button onClick={()=> {setText(''); }}>Clear Name </button>
 			<button disabled={blocked} type="button" onClick={toggle}>
-			 {listening ? 'Stop' : 'Record your custom name'}
+			 {listening ? 'Stop' : 'Voice your name'}
 			 </button>
           </div>
 		  </div>
