@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { useSpeechSynthesis,useSpeechRecognition } from "react-speech-kit";
-import { Container } from './shared';
 
 const SpeechSynthesis = () => {
   const [text, setText] = useState('Start entering the name or record your custom name');
