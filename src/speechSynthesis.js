@@ -3,7 +3,7 @@ import { useSpeechSynthesis,useSpeechRecognition } from "react-speech-kit";
 import { Container } from './shared';
 
 const SpeechSynthesis = () => {
-  const [text, setText,setValue] = useState('Sneha');
+  const [text, setText] = useState('Start entering the name or record your custom name');
   const [pitch, setPitch] = useState(1);
   const [rate, setRate] = useState(1);
   const [voiceIndex, setVoiceIndex] = useState(null);
@@ -20,12 +20,13 @@ const SpeechSynthesis = () => {
   
   const { listen, listening, stop } = useSpeechRecognition({
     onResult:(result)=> {
-		setValue(result);
+	        setText('')
+		setText(result);
 	},
    
   });
   
- const [lang,setLang]=useState('en-AU');
+ const [lang]=useState('en-AU');
   
   const toggle = listening
     ? stop
