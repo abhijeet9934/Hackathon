@@ -6,8 +6,7 @@
 
 body{
 	font-family: sans-serif;
-	background-color:lightGrey;
-	background-image: url("Background.jpeg");
+	background-color:lightBlue;
 	
 }
 .Speech{
@@ -21,7 +20,7 @@ textarea{
 	background-color: lightblue;
 	padding: 40px;
 	margin: 0px 20px 20px;
-	max-width: 300px;
+	max-width: 50%;
 	font-size: large;
 }
 button{
