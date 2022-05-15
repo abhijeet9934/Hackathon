@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSpeechSynthesis,useSpeechRecognition } from "react-speech-kit";
 
 const SpeechSynthesis = () => {
-  const [text, setText] = useState('Start entering the name or record your custom name');
+  const [text, setText] = useState('Start entering the name or voice your name');
   const [pitch, setPitch] = useState(1);
   const [rate, setRate] = useState(1);
   const [voiceIndex, setVoiceIndex] = useState(null);
